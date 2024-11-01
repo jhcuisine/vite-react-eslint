@@ -1,0 +1,25 @@
+.main {
+  background-color: tomato;
+  .menu {
+    margin: 0;
+    padding: 0;
+    ul {
+      list-style: none;
+
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          padding: 15px 20px;
+          text-decoration: none;
+          font-family: Verdana, Geneva, sans-serif;
+          text-transform: uppercase;
+          color: white;
+          &:hover {
+            
+          }
+        }
+      }
+    }
+  }
+}
